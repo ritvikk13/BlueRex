@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+body{
+
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif !important;
+}
+/* Wrap 1 Start */
+.wrap1{
+
+background: url("../img/bg1.png");
+height: 940px;
+background-repeat: no-repeat;
+background-position: right;
+
+
+background-size: cover;
+
+}
+
+#navbarNav ul li a{
+    color: white;
+    margin-right: 37px;
+
+    font-size: 16px;
+}
+.btnor{
+
+    background-color: #f42267;
+    color: white;
+    width: 196px;
+    height: 60px;
+    border-radius: 34px;
+    border: none;
+}
+
+
+.rmbtn{
+
+    background-color: #6732be;
+    color: white;
+    width: 196px;
+    height: 60px;
+    border-radius: 34px;
+    border: none;
+
+
+}
+
+/* Responsive for tab/mob */
+
+@media only screen and ( max-width:425px){
+
+    .fonres{
+        font-size: 30px !important;
+    }
+
+}
+
+
+/* Ending Wrap1 */
+
+/* wrap3 start */
+
+.wrap3{
+
+    background: url("../img/bg2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* End wrap3 */
+
+
+
+/* wrap4 start */
+
+.wrap4{
+    background: url("../img/wp4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Ending wr4 */
+
+/* wrap7 start */
+
+.wrap7{
+
+    background: url("../img/wp7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.wrap8{
+
+    background: url("../img/wp8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
